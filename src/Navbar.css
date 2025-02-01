@@ -1,0 +1,19 @@
+nav{
+    background-color: #da4b4b;
+    padding: 1rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}

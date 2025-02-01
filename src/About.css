@@ -1,0 +1,55 @@
+.about-us-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.leadership-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Changed to center the items */
+  margin-top: 20px;
+}
+
+.leader {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 30%; /* Ensure three leaders per row */
+  max-width: 30%; /* Prevent items from getting too wide */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leader-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.position {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}

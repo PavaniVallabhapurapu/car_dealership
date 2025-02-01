@@ -1,0 +1,35 @@
+.dealerships-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dealerships-table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .dealerships-table th,
+  .dealerships-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .dealerships-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .dealerships-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .dealerships-table tr:hover {
+    background-color: #ddd;
+  }
+  
